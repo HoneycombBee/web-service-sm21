@@ -71,7 +71,7 @@ function bondJSON(data){
 	*/
 }
 
-function bondTemplate(film){
+function bondTemplate(Film){
 
 	return`
 		<div class="film">
@@ -99,21 +99,7 @@ function bondTemplate(film){
 		<a href="box" class="category">Bond Films By International Box Office Totals</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
 		<div id="films">
-			<!--
-		<div class="film">
-				<b>Film: </b> 1<br />
-				<b>Title: </b> Dr. No<br />
-				<b>Year: </b> 1962<br />
-				<b>Director: </b> Terence Young<br />
-				<b>Producers: </b> Harry Saltzman and Albert R. Broccoli<br />
-				<b>Writers: </b> Richard Maibaum, Johanna Harwood and Berkely Mather<br />
-				<b>Composer: </b> Monty Norman<br />
-				<b>Bond: </b> Sean Connery<br />
-				<b>Budget: </b> $1,000,000.00<br />
-				<b>Box Office: </b> $59,567,035.00<br />
-				<div class="pic"><img src="thumbnails/dr-no.jpg"></div>
-				</div>
--->
+
 		</div>
 		<div id="output">Results go here</div>
 	</body>
