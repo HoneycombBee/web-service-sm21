@@ -54,21 +54,20 @@ function toConsole(data)
 
 function bondJSON(data){
 	console.log(data);
-
+/*
 	//identifies the type of data returned
 	$('#filmtitle').html(data.title);
 	$('#films').html("");//clears
 	$.each(data.films,function(i,item){
 		let myFilm = bondTemplate(item);
-
 		$('<div></div>').html(myFilm).appendTo('#films');
 	});
-
-	/*
+*/
+	
 	let myData = JSON.stringify(data,null,4);
 	myData = "<pre>" + myData + "</pre>";
 	$("#output").html(myData);
-	*/
+	
 }
 
 function bondTemplate(film){
@@ -95,8 +94,8 @@ function bondTemplate(film){
 </head>
 	<body>
 	<h1>Bond Web Service</h1>
-		<a href="year" class="category">Bond Films By Year</a><br />
-		<a href="box" class="category">Bond Films By International Box Office Totals</a>
+		<a href="year" class="category">Video Games By Year</a><br />
+		<a href="title" class="category">Video Games By Title</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
 		<div id="films">
 
